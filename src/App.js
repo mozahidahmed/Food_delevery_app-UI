@@ -1,10 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+
+import Navbar from './components/shared/Navbar';
+import Footer from './components/shared/Footer';
+import Home from './components/pages/Home';
 
 function App() {
   return (
-    <div className="App">
-      <button className="rounded-full bg-yellow-200 p-5 font-bold">Save Changes</button>
+    <div className="">
+      <Navbar/>
+      <Home/>
+      <Footer/>
+    
+
     </div>
   );
 }
