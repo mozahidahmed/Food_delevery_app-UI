@@ -1,12 +1,20 @@
 import React from 'react';
+import Banner from './Banner';
+import MobileApp from './MobileApp';
+import ShopHero from './ShopHero';
+import Hero2 from './Hero2';
+import Hero3 from './Hero3';
+import Banner2 from './Banner2';
 
 const Home = () => {
     return (
         <div>
-            <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
-
-
-            </div>
+           <Banner/>
+           <MobileApp/>
+           <ShopHero/>
+           <Hero2/>
+           <Hero3/>
+           <Banner2/>
         </div>
     );
 };
