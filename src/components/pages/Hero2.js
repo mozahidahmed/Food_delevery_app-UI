@@ -18,10 +18,8 @@ const Hero2 = () => {
               
                 </div>
                 
-                <div className="grid justify-center">
-        
-                        <img src="https://i.ibb.co/M8f3L5c/Rectangle-removebg-preview.png" className="shadow-xl" alt='hjg' />
-                    
+                <div className="grid justify-center shadow-[50px 30px 150px 0px #2E040426]">
+                    <img src="https://i.ibb.co/jk4dGrn/Rectangle-3.png" className="" alt='hjg' />
                 </div>
 
 
