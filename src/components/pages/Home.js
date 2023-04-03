@@ -1,7 +1,7 @@
 import React from 'react';
 import Banner from './Banner';
 import MobileApp from './MobileApp';
-import ShopHero from './ShopHero';
+import Hero1 from './Hero1';
 import Hero2 from './Hero2';
 import Hero3 from './Hero3';
 import Banner2 from './Banner2';
@@ -11,7 +11,7 @@ const Home = () => {
         <div>
            <Banner/>
            <MobileApp/>
-           <ShopHero/>
+           <Hero1/>
            <Hero2/>
            <Hero3/>
            <Banner2/>
