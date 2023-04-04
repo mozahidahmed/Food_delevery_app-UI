@@ -41,7 +41,7 @@ const Login = () => {
                     </div>
                      
                     <div className="mt-6">
-                        <button className='btn bg-[#FA4A0C] w-full'>Try To Login</button>   
+                        <button className='btn bg-[#FA4A0C] rounded-full w-full'>Try To Login</button>   
                     </div>
 
 
