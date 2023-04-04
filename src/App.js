@@ -1,15 +1,22 @@
 
-import Navbar from './components/shared/Navbar';
-import Footer from './components/shared/Footer';
 import Home from './components/pages/Home';
+import { Routes, Route } from 'react-router-dom';
+import AllPages from './components/MobileApp/AllPages';
 
 function App() {
   return (
     <div className="">
-      <Navbar/>
-      <Home/>
-      <Footer/>
-    
+     
+
+     {/* for mobile app start */}
+    <Routes>
+        <Route path="/" element={<Home />}></Route>
+    <Route path="/app" element={<AllPages/>}></Route>
+    </Routes>
+      {/* for mobile app end */}
+
+
+
 
     </div>
   );
