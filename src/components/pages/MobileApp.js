@@ -3,8 +3,13 @@ import React from 'react';
 const MobileApp = () => {
     return (
         <div className='grid justify-center '>
-         <div className="lg:mt-[-190px]">
-            <img className='h-[640px]' src="https://i.ibb.co/GkJ0JM6/Group-53.png" alt="" />
+         <div className="flex justify-center lg:mt-[-240px] ">
+           <div className="">
+                    <img className='' src="https://i.ibb.co/Q6Q22fX/Rectangle-5.png" alt="" />
+           </div>
+                <div className="md:ms-[-330px] ms-[-140px]   mt-[50px]">
+                    <img className='' src="https://i.ibb.co/Q6Q22fX/Rectangle-5.png"  alt="" />
+           </div>
          </div>
      
         </div>
