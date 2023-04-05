@@ -11,7 +11,7 @@ const MyOffers = () => {
                 <div className="flex justify-between w-[400px] px-6">
                     <img src="https://i.ibb.co/pX9Z1D2/chevron-left-1.png" alt="" />
                     
-                </div>
+                </div> 
                 <h1 className='text-3xl font-bold ms-6 mb-2'>My Offer</h1>
 
                 <div className="grid mt-12 justify-center py-16 px-6">
@@ -20,11 +20,6 @@ const MyOffers = () => {
                         below to Create an order
                     </p>
                 </div>
-
-                
-
-
-
             </div>
 
 
