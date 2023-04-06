@@ -12,10 +12,14 @@ import MyProfile from './MyProfile';
 import VeggieTomatoMix from './VeggieTomatoMix';
 import Delivery from './Delivery';
 import Payment from './Payment';
+import Cart from './Cart';
+import MyProfile2 from './MyProfile2';
+import Navbar from './Navbar';
 
 const AllPage = () => {
     return (
         <div className=''>
+      <Navbar/>
       <FoodForEveryone/>
       <Login/>
       <FoodForYou/>
@@ -29,6 +33,8 @@ const AllPage = () => {
       <VeggieTomatoMix/>
       <Delivery/>
       <Payment/>
+      <Cart/>
+      <MyProfile2/>
         </div>
     );
 };

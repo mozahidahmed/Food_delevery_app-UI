@@ -3,7 +3,7 @@ import React from 'react';
 const FoodForYou = () => {
     return (
         <div>
-            <h1 className='text-[#FA4A0C] text-3xl font-bold ms-6'>FoodForYou</h1>
+          
             <div className="grid justify-center items-center py-6 px-6">
                 <div className="flex justify-between w-[400px] px-6">
                         <img src="https://i.ibb.co/9WBKdSw/Vector-11.png" alt="" />

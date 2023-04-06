@@ -3,7 +3,6 @@ import React from 'react';
 const Login = () => {
     return (
         <div className=' mt-6 py-12'>
-            <h1 className='text-[#FA4A0C] text-3xl font-bold ms-6'>Login Page</h1>
             
           <div className="grid justify-center">
                

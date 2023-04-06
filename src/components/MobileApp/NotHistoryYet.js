@@ -3,8 +3,7 @@ import React from 'react';
 const NotHistoryYet = () => {
     return (
         <div>
-            <h1 className='text-[#FA4A0C] text-3xl font-bold ms-6 mb-2'>No history yet</h1>
-            
+           
             <div className="grid  justify-center">
 
                 <div className="flex justify-between w-[400px] px-6">

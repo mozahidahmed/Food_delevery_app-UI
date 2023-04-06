@@ -3,8 +3,7 @@ import React from 'react';
 const NoInternetConnection = () => {
     return (
         <div>
-            <h1 className='text-[#FA4A0C] text-3xl font-bold ms-6 mb-2'>08. No Internet Connection</h1>
-
+           
             <div className="grid  justify-center">
 
                

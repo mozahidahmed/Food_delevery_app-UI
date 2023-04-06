@@ -3,7 +3,6 @@ import React from 'react';
 const Delivery = () => {
     return (
         <div>
-            <h1 className='text-[#FA4A0C] text-3xl font-bold ms-6 mb-2'>Delevery </h1>
             <div className="grid justify-center items-center py-6">
                 <div className="flex justify-self-auto gap-4 mb-6 w-[400px] px-6">
                     <img src="https://i.ibb.co/pX9Z1D2/chevron-left-1.png" alt="" />
