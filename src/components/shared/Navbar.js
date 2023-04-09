@@ -5,45 +5,54 @@ import React from 'react';
 
 
 const Navbar = () => {
-    const menuitems =
-        <>
-            <li className='font-bold text-2xl mx-3 text-[#FA4A0C]'>Home</li>
-            <li className='text-black font-bold text-2xl mx-3'> Product</li>
-            <li className='text-black font-bold text-2xl mx-3'>Faq</li>
-            <li className='text-black font-bold text-2xl mx-3'> Contact</li>
-        </>
+    
 
     return (
-        <div className="navbar  bg-gray-200 flex  justify-between bg-opacity-200 p-2 px-6 sticky top-0 z-[50]">
-            <div className="navbar-start ">
-                <div className="dropdown">
-                    <label tabIndex="0" className="btn btn-ghost lg:hidden">
-                        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
-                    </label>
-                    <ul tabIndex="0" className="menu menu-compact dropdown-content mt-3  shadow bg-gray-200  w-52">
+        <div className="">
+  <header>
+    <div className="relative z-20 border-b bg-white">
+        <div className="px-6 md:px-12 lg:container lg:mx-auto lg:px-6 lg:py-4">
+          <div className="flex items-center justify-between">
+            <div className="relative z-20">
+              <a href="#">
+                                    <img src="https://i.ibb.co/6DTF0TH/Bella-Olonje-logo-111-1.png" classNameName="w-[206px] h-[101.76p]" alt="" />              </a>
+            </div>
 
-                        {menuitems}
+            <div className="flex items-center justify-end border-l lg:border-l-0">
+              <input type="checkbox" name="hamburger" id="hamburger" className="peer" hidden/>
+              <label for="hamburger" className="peer-checked:hamburger block relative z-20 p-6 -mr-6 cursor-pointer lg:hidden">
+                <div aria-hidden="true" className="m-auto h-0.5 w-6 rounded bg-sky-900 transition duration-300"></div>
+                <div aria-hidden="true" className="m-auto mt-2 h-0.5 w-6 rounded bg-sky-900 transition duration-300"></div>
+              </label>
 
-
-                    </ul>
+              <div className="peer-checked:translate-x-0 fixed inset-0 w-[calc(100%-4.5rem)] translate-x-[-100%] bg-white border-r shadow-xl transition duration-300 lg:border-r-0 lg:w-auto lg:static lg:shadow-none lg:translate-x-0">
+                <div className="flex flex-col h-full justify-between lg:items-center lg:flex-row">
+                  <ul className="px-6 pt-32 text-gray-700 space-y-8 md:px-12 lg:space-y-0 lg:flex lg:space-x-12 lg:pt-0">
+                    <li>
+                        <span className="relative text-cyan-800 text-2xl font-bold">Home</span>
+                     
+                    </li>
+                    <li>
+                        <span className="relative group-hover:text-cyan-800 text-2xl font-bold">Products</span>
+                     
+                    </li>
+                    <li >
+                        <span className="relative group-hover:text-cyan-800 text-2xl font-bold">req</span>
+                      
+                    </li>
+                    <li>
+                        <span className="relative group-hover:text-cyan-800 text-2xl font-bold">Contact</span>
+                      
+                    </li>
+                  </ul>
                 </div>
-                <img src="https://i.ibb.co/6DTF0TH/Bella-Olonje-logo-111-1.png" className="w-[206px] h-[101.76p]" alt="" />
-
+              </div>
             </div>
-            <div className="navbar-center hidden lg:flex">
-                <ul className="menu menu-horizontal p-0">
-                    {menuitems}
-                </ul>
-            </div>
-            <div>
-                <div className='navbar-end'>
-                    
-
-                </div>
-            </div>
-
-
+          </div>
         </div>
+    </div>
+  </header>
+</div>
     );
 };
 
