@@ -11,11 +11,11 @@ const Navbar = () => {
         <div className="">
   <header>
     <div className="relative z-20 border-b bg-white">
-        <div className="px-6 md:px-12 lg:container lg:mx-auto lg:px-6 lg:py-4">
+        <div className="px-2 md:px-12 lg:container  lg:px-4 lg:py-2">
           <div className="flex items-center justify-between">
             <div className="relative z-20">
               <a href="#">
-                                    <img src="https://i.ibb.co/6DTF0TH/Bella-Olonje-logo-111-1.png" classNameName="w-[206px] h-[101.76p]" alt="" />              </a>
+                <img src="https://i.ibb.co/6DTF0TH/Bella-Olonje-logo-111-1.png" classNameName="w-[206px] h-[101.76p]" alt="" />              </a>
             </div>
 
             <div className="flex items-center justify-end border-l lg:border-l-0">
