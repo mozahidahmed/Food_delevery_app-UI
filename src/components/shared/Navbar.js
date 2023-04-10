@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 
 
@@ -44,6 +45,12 @@ const Navbar = () => {
                         <span className="relative group-hover:text-cyan-800 text-2xl font-bold">Contact</span>
                       
                     </li>
+                   <Link to="/app">
+                          <li>
+                            <span className="relative group-hover:text-cyan-800 text-2xl font-bold">App</span>
+
+                          </li>
+                   </Link>
                   </ul>
                 </div>
               </div>
