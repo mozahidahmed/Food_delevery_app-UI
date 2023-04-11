@@ -30,7 +30,7 @@ const Navbar = () => {
                 <div className="flex flex-col h-full justify-between lg:items-center lg:flex-row">
                   <ul className="px-6 pt-32 text-gray-700 space-y-8 md:px-12 lg:space-y-0 lg:flex lg:space-x-12 lg:pt-0">
                     <li>
-                        <span className="relative text-cyan-800 text-2xl font-bold">Home</span>
+                          <span className="relative text-[#FA4A0C] text-2xl font-bold">Home</span>
                      
                     </li>
                     <li>

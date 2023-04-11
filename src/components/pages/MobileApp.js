@@ -7,7 +7,7 @@ const MobileApp = () => {
                 <div className="">
                     <img className='' src="https://i.ibb.co/Q6Q22fX/Rectangle-5.png" alt="" />
                 </div>
-                <div className="md:ms-[-300px] ms-[-220px]   mt-[50px]">
+                <div className="md:ms-[-300px] ms-[-120px]   mt-[50px]">
                     <img className='' src="https://i.ibb.co/jk4dGrn/Rectangle-3.png" alt="" />
                 </div>
             </div>
