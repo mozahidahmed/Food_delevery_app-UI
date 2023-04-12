@@ -14,7 +14,7 @@ const Hero3 = () => {
                
                 <div className="grid justify-center md:order-last  order-first">
                     <h3 className='text-[#FA4A0C]  font-bold '>Create an account</h3>
-                    <h2 className='font-bold text-3xl mt-2 mb-2'>Create/login to an existing <br />
+                    <h2 className='font-bold lg:text-3xl mt-2 mb-2'>Create/login to an existing <br />
                         account to get started</h2>
                     <h4>An account is created with your email <br />
                         An account is created with your email

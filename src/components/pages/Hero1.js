@@ -4,7 +4,7 @@ const Hero1 = () => {
     return (
         <div className=''>
             <hr className='mx-24 mb-12' />
-            <h1 className='text-3xl font-bold text-center '>How the app works</h1>
+            <h1 className='lg:text-3xl font-bold text-center '>How the app works</h1>
             <div className="grid sm:grid-cols-1 lg:grid-cols-2 px-24 mt-24 justify-center items-center">
 
                 <div className="grid justify-center shadow-[50px 30px 150px 0px #2E040426]">
