@@ -2,11 +2,9 @@ import React from 'react';
 
 const Login = () => {
     return (
-        <div className='mt-6'>
-            
-          <div className="grid justify-center">   
+          <div className="grid justify-center mt-6">   
                     <div className="">
-                        <div className="">
+                        <div className="grid justify-center">
                             <img src="https://i.ibb.co/JnCHSz7/Group-3.png" className='w-[200px]' alt="" />
                         </div>
                         <div className="flex justify-between ">
@@ -39,7 +37,7 @@ const Login = () => {
                     </div>          
           </div>
 
-        </div>
+    
     );
 };
 

@@ -4,8 +4,8 @@ const Cart = () => {
     return (
         <div>
 
-            <div className="grid justify-center items-center py-6">
-                <div className="flex justify-self-auto gap-4 mb-6 w-[400px] px-6">
+            <div className="grid justify-center items-center p-6">
+                <div className="flex justify-self-auto gap-4 mb-6">
                     <img src="https://i.ibb.co/pX9Z1D2/chevron-left-1.png" alt="" />
                     <h1 className='font-bold '>cart</h1>
                 </div>
@@ -13,7 +13,7 @@ const Cart = () => {
                 <div className="shadow-xl flex justify-center mt-6">
                     <img className='w-[120px]' src="https://i.ibb.co/mGy8H96/Mask-Group.png" alt="" />
                     <div className="">
-                        <h1 className='text-2xl font-bold'>Veggie tomato mix</h1>
+                        <h1 className='text-2xl font-bold'>Veggie tomato </h1>
                         <div className="flex  gap-12">
                             <p className=''>Veggie tomato mix</p>
                             <p className='bg-[#FA4A0C] rounded-xl px-5 mt-6'>+ P -</p>
@@ -24,7 +24,7 @@ const Cart = () => {
                 <div className="shadow-xl flex justify-center mt-6">
                     <img className='w-[120px]' src="https://i.ibb.co/mGy8H96/Mask-Group.png" alt="" />
                     <div className="">
-                        <h1 className='text-2xl font-bold'>Veggie tomato mix</h1>
+                        <h1 className='text-2xl font-bold'>Veggie tomato </h1>
                         <div className="flex  gap-12">
                             <p className=''>Veggie tomato mix</p>
                             <p className='bg-[#FA4A0C] rounded-xl px-5 mt-6'>+ P -</p>
@@ -37,7 +37,7 @@ const Cart = () => {
                     <div className="shadow-xl flex justify-center mt-6">
                         <img className='w-[120px]' src="https://i.ibb.co/mGy8H96/Mask-Group.png" alt="" />
                         <div className="">
-                            <h1 className='text-2xl font-bold'>Veggie tomato mix</h1>
+                            <h1 className='text-2xl font-bold'>Veggie tomato </h1>
                             <div className="flex  gap-12">
                                 <p className=''>Veggie tomato mix</p>
                                 <p className='bg-[#FA4A0C] rounded-xl px-5 mt-6'>+ P -</p>

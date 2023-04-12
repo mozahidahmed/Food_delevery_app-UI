@@ -3,8 +3,8 @@ import React from 'react';
 const VeggieTomatoMix = () => {
     return (
         <div>
-            <div className="grid justify-center items-center py-6">
-                <div className="flex justify-between gap-4 mb-6 w-[400px] px-6">
+            <div className="grid justify-center items-center p-6">
+                <div className="flex justify-between gap-4 mb-6">
                     <img src="https://i.ibb.co/pX9Z1D2/chevron-left-1.png" alt="" />
                     <img src="https://i.ibb.co/8MFNyzq/heart-1.png" alt="" />
              

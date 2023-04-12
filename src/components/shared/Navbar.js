@@ -1,14 +1,10 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 
 
-
-
 const Navbar = () => {
     
-
-    return (
+  return (
         <div className="">
   <header>
     <div className="relative z-20 border-b bg-white">
