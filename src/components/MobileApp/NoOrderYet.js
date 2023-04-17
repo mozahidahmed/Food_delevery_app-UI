@@ -16,7 +16,7 @@ const NoOrderYet = () => {
                 <div className="grid mt-12 justify-center">
                     <h1 className='text-3xl font-bold text-center'> No Order yet</h1>
                     <p>Hit the orange button down
-                        below to Create an order
+                        below to Create 
                     </p>
                 </div>
 

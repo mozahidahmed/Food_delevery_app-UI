@@ -17,7 +17,7 @@ const Login = () => {
                     <div className="">
                         <div className="">
                             <h1>Email address</h1>
-                            <h1 className='font-bold'>mozahidwebmin11d10@gmail.com</h1>
+                            <input  className='font-bold'>mozahidwebmin11d10@gmail.com</input>
                             <img src="https://i.ibb.co/MMrrC3j/Line-1.png" alt="" />
                         </div>
 

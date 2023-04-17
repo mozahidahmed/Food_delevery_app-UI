@@ -6,7 +6,7 @@ const Hero1 = () => {
             <hr className='mx-24 mb-12' />
             <h1 className='text-3xl font-bold text-center '>How the app works</h1>
             <div className="grid sm:grid-cols-1 lg:grid-cols-2 px-24 mt-24 justify-center items-center">
-
+                
                 <div className="grid justify-center shadow-[50px 30px 150px 0px #2E040426]">
                     <img src="https://i.ibb.co/jk4dGrn/Rectangle-3.png" className="" alt='hjg' />
                 </div>

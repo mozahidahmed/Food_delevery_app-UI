@@ -17,7 +17,7 @@ const MyOffers = () => {
                 <div className="grid mt-16 justify-center">
                     <h1 className='text-3xl font-bold text-center'> No Offer yet</h1>
                     <p>Hit the orange button down
-                        below to Create an order
+                        below to Create 
                     </p>
                 </div>
             </div>

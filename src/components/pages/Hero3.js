@@ -10,8 +10,6 @@ const Hero3 = () => {
                     <img src="https://i.ibb.co/4mNhMp5/Rectangle-4.png" className="" alt='hjg' />
                 </div>
 
-
-               
                 <div className="grid justify-center md:order-last  order-first">
                     <h3 className='text-[#FA4A0C]  font-bold '>Create an account</h3>
                     <h2 className='font-bold lg:text-3xl text-2xl mt-2 mb-2'>Create/login to an existing <br />
